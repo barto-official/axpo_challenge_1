@@ -11,6 +11,21 @@ This project aims to create a data engineering infrastructure for IoT domain to 
 
 
 ## Project Structure
+## Getting Started
+### Prerequisites
+### Installation
+
+
+## Project Parts
+### Data Generation, Collection, and Aggregation
+### Data Access via API
+### Cataloging 
+### Quality Checks
+
+### Potential Drawbacks/Improvements
+
+
+
 The project contains the following components:
 * generator.py: Generates IoT data based on the configurations provided in sensors.json.
 * sensors.json: Configuration file that defines the sensors, their types, locations, and other details.
