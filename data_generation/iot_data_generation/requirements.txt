@@ -1,0 +1,6 @@
+paho-mqtt
+pydantic[dotenv]
+sqlalchemy
+asyncio
+pydantic-settings
+mysql-connector

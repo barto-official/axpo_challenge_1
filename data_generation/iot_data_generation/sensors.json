@@ -1,0 +1,57 @@
+{
+  "1": {
+    "lat": 10,
+    "lng": 10,
+    "unit": "C",
+    "type": "temperature",
+    "range": [
+      0,
+      45
+    ],
+    "description": "Main Entrance"
+  },
+  "2": {
+    "lat": 90,
+    "lng": 90,
+    "unit": "C",
+    "type": "temperature",
+    "range": [
+      0,
+      45
+    ],
+    "description": "Kitchen"
+  },
+  "3": {
+    "lat": 90,
+    "lng": 10,
+    "unit": "C",
+    "type": "temperature",
+    "range": [
+      0,
+      45
+    ],
+    "description": "Deposit"
+  },
+  "4": {
+    "lat": 10,
+    "lng": 90,
+    "unit": "C",
+    "type": "temperature",
+    "range": [
+      0,
+      45
+    ],
+    "description": "Assemlby Floor"
+  },
+  "5": {
+    "lat": 50,
+    "lng": 50,
+    "unit": "C",
+    "type": "temperature",
+    "range": [
+      0,
+      45
+    ],
+    "description": "Offices"
+  }
+}
