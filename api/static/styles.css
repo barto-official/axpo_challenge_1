@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+#data-container {
+    margin-top: 20px;
+}
+
+.pagination {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+tr:hover {
+    cursor: pointer;
+    background-color: #f0f0f0;
+}

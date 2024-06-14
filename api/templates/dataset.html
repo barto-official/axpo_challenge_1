@@ -1,0 +1,26 @@
+document.addEventListener("DOMContentLoaded", function() {
+    const datasetId = window.location.pathname.split('/').pop();
+
+    fetch(`/data/${datasetId}`)
+        .then(response => response.json())
+        .then(data => {
+            const container = document.getElementById("dataset-details");
+
+            const details = `
+                <p><strong>ID:</strong> ${data.id}</p>
+                <p><strong>Dataset Name:</strong> ${data.dataset_name}</p>
+                <p><strong>Schema:</strong> ${data.schema}</p>
+                <p><strong>Data Types:</strong> ${data.data_types}</p>
+                <p><strong>Description:</strong> ${data.description}</p>
+                <p><strong>Usage:</strong> ${data.usage}</p>
+                <p><strong>Lineage:</strong> ${data.lineage}</p>
+            `;
+
+            container.innerHTML = details;
+        })
+        .catch(error => {
+            console.error("Error fetching dataset details:", error);
+            const container = document.getElementById("dataset-details");
+            container.textContent = "Error loading dataset details.";
+        });
+});
