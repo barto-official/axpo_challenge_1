@@ -22,6 +22,9 @@ This project aims to create a data engineering infrastructure for IoT domain to 
    - Validation checks are run based on API as well
    - Users can also browse data catalogs in GUI-like manner (Javascript, HTML, CSS)
 
+<img width="1124" alt="Screenshot 2024-06-14 at 18 27 45" src="https://github.com/barto-official/axpo_challenge_1/assets/125658269/1123b1be-90a1-4de3-9eab-a977c218ee90">
+
+
 ## Project Structure
 There are two main parts of the project: Data Generation and Access Layer. On top of that, we use MySQL database deployed on Azure.
 
